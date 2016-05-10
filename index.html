@@ -31,7 +31,20 @@
             success: function(json) {
                arr = json.updatedFeeds.updatedFeed;
                for (var i = 0; i < arr.length; i++) {
-                   console.log(arr[i])
+                   console.log(arr[i]);
+
+                   contents = "";
+
+                   contents += "<h3><a href ='" + arr[i].item[0].link + "'>" + arr[i].item[0].title + "</a></h3>";
+
+                   contents += "<a href='" + arr[i].websiteUrl + "'>" + arr[i].feedTitle + "</a> " ;
+                   contents += "(<a href='" + arr[i].feedUrl + "'>Feed</a>)";
+                   contents += " - " + arr[i].item[0].pubDate + "<br>"
+
+                   contents += "<p>" + arr[i].item[0].body + "</p><br>";
+
+                   $("#feed").append(contents);
+
                }
             },
             error: function(e) {
@@ -49,7 +62,9 @@
             <h1><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>&nbsp;<a href="https://github.com/rhnvrm/Baato">PlanetGSoC</a>: Blogs relating to Google Summer of Code</h1>
             <div class="container-fluid"> 
 
+                <div class="container-fluid" id="feed">
 
+                </div>
                 <p>made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by <a href="http://github.com/rhnvrm">rhnvrm</a></p>
             </div>
         </div>
