@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Planet GSoC</title>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
+    <script type="text/javascript">
+
+        (function($) {
+        var url = 'http://128.199.199.233:1337/getoneriver?fname=gsoc.js&callback=?';
+
+        $.ajax({
+           type: 'GET',
+            url: url,
+            async: false,
+            jsonpCallback: 'onGetRiverStream',
+            contentType: "application/json",
+            dataType: 'jsonp',
+            success: function(json) {
+               arr = json.updatedFeeds.updatedFeed;
+               for (var i = 0; i < arr.length; i++) {
+                   console.log(arr[i])
+               }
+            },
+            error: function(e) {
+               console.log(e.message);
+            }
+        });
+
+        })(jQuery);
+
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container-fluid" style="padding-bottom: 10px;background: rgba(255, 255, 255, 0.91)!important;border-radius: 20px; margin-top: 20px;">
+            <h1><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>&nbsp;<a href="https://github.com/rhnvrm/Baato">PlanetGSoC</a>: Blogs relating to Google Summer of Code</h1>
+            <div class="container-fluid"> 
+
+
+                <p>made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by <a href="http://github.com/rhnvrm">rhnvrm</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
