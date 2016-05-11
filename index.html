@@ -18,6 +18,8 @@
     
     <script type="text/javascript">
 
+        (document.location.protocol=="https:")?alert("Planet works only with http"):1;
+
         (function($) {
         var url = 'http://128.199.199.233:1337/getoneriver?fname=gsoc.js&callback=?';
 
@@ -56,7 +58,7 @@
 
     </script>
 </head>
-<body onload="(document.location.protocol=="https:")?alert("Planet works only with http"):1;">
+<body>
     <div class="container-fluid">
         <div class="container-fluid" style="padding-bottom: 10px;background: rgba(255, 255, 255, 0.91)!important;border-radius: 20px; margin-top: 20px;">
             <h1><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>&nbsp;<a href="http://github.com/planetGSoC/planetGSoC.github.io">PlanetGSoC</a>: Blogs relating to Google Summer of Code</h1>
