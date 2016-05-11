@@ -70,4 +70,5 @@ You can add a label named `GSoC` to your blog and the feed for that specific tag
 
 ### Wordpress powered
 
-Feed for Wordpress blogs can be generated at `http://www.example.com/?tag=tagname&feed=rss2`. 
+Feed for Wordpress blogs can be generated at `http://www.example.com/?tag=tagname&feed=rss2` or `http://example.in/feed/?cat=gsoc-2016`. You can read up the documentation here: `https://codex.wordpress.org/WordPress_Feeds#Categories_and_Tags`. Add this in a new line to [list/gsoc.txt](https://github.com/planetGSoC/river5/blob/master/lists/gsoc.txt)
+
