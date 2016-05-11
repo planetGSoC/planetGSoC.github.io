@@ -1,3 +1,5 @@
+![https://avatars0.githubusercontent.com/u/19289545?v=3&s=200](https://avatars0.githubusercontent.com/u/19289545?v=3&s=200)
+
 # planetGSoC.github.io
 Planet for GSoC. Google Summer of Code Blog Aggregator.
 
