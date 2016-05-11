@@ -33,17 +33,17 @@
             success: function(json) {
                arr = json.updatedFeeds.updatedFeed;
                for (var i = 0; i < arr.length; i++) {
-                   console.log(arr[i]);
+                   var latest_item = arr[i].item[arr[i].item.length - 1];
 
                    contents = "";
 
-                   contents += "<h3><a href ='" + arr[i].item[0].link + "'>" + arr[i].item[0].title + "</a></h3>";
+                   contents += "<h3><a href ='" + latest_item.link + "'>" + latest_item.title + "</a></h3>";
 
                    contents += "<a href='" + arr[i].websiteUrl + "'>" + arr[i].feedTitle + "</a> " ;
                    contents += "(<a href='" + arr[i].feedUrl + "'>Feed</a>)";
-                   contents += " - " + arr[i].item[0].pubDate + "<br>"
+                   contents += " - " + latest_item.pubDate + "<br>"
 
-                   contents += "<p>" + arr[i].item[0].body + "</p><br>";
+                   contents += "<p>" + latest_item.body + "</p><br>";
 
                    $("#feed").append(contents);
 
