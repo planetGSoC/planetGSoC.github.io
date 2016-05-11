@@ -7,6 +7,9 @@ This repository hosts the frontend. Feel free to contribute by sending in pull r
 
 You can add your Blog's feed to the repository at [river5/list/gsoc.txt](https://github.com/planetGSoC/river5/blob/master/lists/gsoc.txt). Please try to add blogs that are related to Google Summer of Code or you can read below to add tags/labels to your blog and get it's feed.
 
+You can also edit the file without cloning the directory to your machine. Just click the edit button.
+![https://help.github.com/assets/images/help/repository/edit-file-edit-button.png](https://help.github.com/assets/images/help/repository/edit-file-edit-button.png)
+
 ### Jekyll Powered Blogs
 
 Jekyll allows you to add tags to your blogs. After adding tags it is as easy as adding the following feed generator for that tag.
