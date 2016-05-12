@@ -18,7 +18,10 @@
     
     <script type="text/javascript">
 
-        (document.location.protocol=="https:")?alert("Planet works only with http"):1;
+        if (document.location.protocol=="https:"){
+            alert("PlanetGSoC only works with http due to content mismatch. Redirecting you to http://planetGSoC.github.io");
+            location.href = 'http://planetGSoC.github.io';
+        }
 
         (function($) {
         var url = 'http://128.199.199.233:1337/getoneriver?fname=gsoc.js&callback=?';
