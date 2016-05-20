@@ -36,8 +36,7 @@
             success: function(json) {
                arr = json.updatedFeeds.updatedFeed;
                for (var i = 0; i < arr.length; i++) {
-                for(var j = 1; j < arr[i].item.length; j++){
-                   var latest_item = arr[i].item[arr[i].item.length - j];
+                   var latest_item = arr[i].item[arr[i].item.length - 1];
 
                    contents = "<div class='panel panel-default'>";
 
@@ -50,7 +49,7 @@
                    contents += "<div class='panel-body'>" + latest_item.body + "</div></div>";
 
                    $("#feed").append(contents);
-                  }   
+
                }
             },
             error: function(e) {
