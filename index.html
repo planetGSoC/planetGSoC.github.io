@@ -36,20 +36,21 @@
             success: function(json) {
                arr = json.updatedFeeds.updatedFeed;
                for (var i = 0; i < arr.length; i++) {
-                   var latest_item = arr[i].item[arr[i].item.length - 1];
+                for(var j = 1; j < arr[i].item.length; j++){
+                   var latest_item = arr[i].item[arr[i].item.length - j];
 
-                   contents = "";
+                   contents = "<div class='panel panel-default'>";
 
-                   contents += "<h3><a href ='" + latest_item.link + "'>" + latest_item.title + "</a></h3>";
+                   contents += "<div class='panel-heading'><a style='font-size: x-large;' href ='" + latest_item.link + "'>" + latest_item.title + "</a>";
 
-                   contents += "<a href='" + arr[i].websiteUrl + "'>" + arr[i].feedTitle + "</a> " ;
+                   contents += "&nbsp;<a href='" + arr[i].websiteUrl + "'>" + arr[i].feedTitle + "</a> " ;
                    contents += "(<a href='" + arr[i].feedUrl + "'>Feed</a>)";
-                   contents += " - " + latest_item.pubDate + "<br>"
+                   contents += " - " + latest_item.pubDate + "</div>"
 
-                   contents += "<p>" + latest_item.body + "</p><br>";
+                   contents += "<div class='panel-body'>" + latest_item.body + "</div></div>";
 
                    $("#feed").append(contents);
-
+                  }   
                }
             },
             error: function(e) {
@@ -64,7 +65,9 @@
 <body>
     <div class="container-fluid">
         <div class="container-fluid" style="padding-bottom: 10px;background: rgba(255, 255, 255, 0.91)!important;border-radius: 20px; margin-top: 20px;">
+            <div class="page-header">
             <h1><img style="height: 50px;" src="https://avatars0.githubusercontent.com/u/19289545?v=3&amp;s=200">&nbsp;<a href="http://github.com/planetGSoC/planetGSoC.github.io">PlanetGSoC</a>: Blogs relating to Google Summer of Code</h1>
+            </div>
             <div class="container-fluid"> 
 
                 <div class="container-fluid" id="feed">
