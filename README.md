@@ -1,7 +1,7 @@
 # river5
 PlanetGSoC uses river5 as it's river-of-news RSS aggregator which is written in NodeJS.
 
-[![DEPLOY ON OpenShift](http://launch-shifter.rhcloud.com/launch/DEPLOY ON.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=nodejs-0.10&initial_git_url=https://github.com/planetGSoC/river5.git&name=river5-planetGSoC)
+[![DEPLOY ON OpenShift](http://launch-shifter.rhcloud.com/launch/DEPLOY%20ON.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=nodejs-0.10&initial_git_url=https://github.com/planetGSoC/river5.git&name=river5-planetGSoC)
 
 ## How to add your blog to http://planetgsoc.github.io/
 
