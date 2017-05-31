@@ -56,4 +56,5 @@ https://ilovefoss.wordpress.com/tag/gsoc/feed/
 http://shekharrajak.github.io/feed.xml
 http://techyrazzi.blogspot.com/feeds/posts/default/-/GSoC/?alt=rss
 http://sricharan.net/feed-gsoc.xml
-https://blog.freifunk.net/tag/gsoc/feed/
+https://gsoc.paddatrapper.me/rss.xml
+https://blog.freifunk.net/tag/gsoc/feed
