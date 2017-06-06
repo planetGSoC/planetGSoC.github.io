@@ -59,3 +59,4 @@ http://sricharan.net/feed-gsoc.xml
 https://gsoc.paddatrapper.me/rss.xml
 https://blog.freifunk.net/tag/gsoc/feed
 http://sucode.me/feed-gsoc.xml
+https://medium.com/@suthagar23
