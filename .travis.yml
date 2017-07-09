@@ -6,7 +6,7 @@ deploy:
   app: planetgsoc
   domain: rhnvrm
   on:
-    repo: planetGSoC/river5
+    repo: planetGSoC/planetGSoC.github.io
 
 script: true
 
