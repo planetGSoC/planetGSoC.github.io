@@ -2,16 +2,13 @@ deploy:
   provider: openshift
   user: rohanverma2004@gmail.com
   password:
-    secure: cVn+YLapa4NtQWfdL1hxfJiqKzk0Hl16A6Cjcg8keEqweNU0rv9PDsX00Mt8l1fMBs6e4wfoRKBEpmNPzD2ZVZeti0QWMlrJ3IkVxSxbU5tfAIlhNMVM8rcyUWWmiyOYIhX/0rZQznUZxVSRNDhbwNf/azmukSnArNPLJDoBioLFJmtqEHDebRYZZMMrPp8I5NJ/GzAKJ5HR2dNucJ0PrM9xSaMu/R+aLfezNSssbfJfyR6DG8ep//mFrJOa4gtH851drWJungfrBxrHFPtetd+nOEUP0JemBPx1LDecmxdK6OnbndW7r/f7CqDtmzavoC4QpyZpZ7X5Tzzy7J7U4UDpRBRXIv4nXEIsBLwzDKBQprxBQQrwVAjeKclB1UI6AavtJ3dIDlgOCElSbwI+mbZghsKAmUujrBfAtfDu7TGSVghOO3gR0Eu7xwjn+gQZlJ6ElR2Qqf+cx8v70i+vnv+lKZXLoGm190SjdMjGtQYAXDIKvELlBSCi20/OJNTpyOsjH1muKRVPzjKr9/p3V06p8Gar2Hjn44/MAAmjlhtYxfAya0Yz3M2Cmj+ImBaW+m5jeayc0yWn/TpODLweR2PPjbRAw7yGE+s1P0sm623GJwz4dD58ZcEtUpGoj6cfV2tnRejNdOpLS9VMJoYlhhaFgzQnuwDLoxb87uapcr4=
-  app: 
-    river: planetgsoc
+    secure: HAXYp/gwm6jC/Hv+3jWra3PhRRhlZdpU5IHrZtsowXyNykHXMAy/80DJl/WvjiWkKtRkkQ/iKmyemS8/13T3nl0rCmc2bT4CqGftkZ31CXr5MS5UNgeU1a+ntlnth7IZSE/KeuK3q4qY8FPnu130C0Bdg0IjiI8JxjoY/hRoujVL9Fjz/9vThYbWHY88NG0Sxrh+87T49hZ+ZFewcARkpOKgOwf/TRKauDPrMgt0XpAWFWQT9Enkb/F8zAokTwAeaKT5u2FszMlUG2QTnthgmxwpbdP9JmnEQvm9EmcL3lAnDI3vLQLCvd7i00c6WNp0/YDEiugyLEKHO92FaJIPUOt8EJgGYJ/4uYFpe8W6hhMBzpk04fMCsGpZtEedOuV/D1SOcoF3+8h4n7R6ZclHfesnubo/WOGOoId2dcStLS0ZFcRIIyZhW/3QhU9IjBCk+RXbUTO52/ZwisfYuhZKo2RA5QCmfVGQrjvSJDBl+WwTZf7Wa1X2eUd9VeE5NqnvZM9aKHvumfs1seeOP/GkqmIk+HXj/qT6zWZilORsz0Nz9q/9/dt18R8VZNxlCuT6DJ3KYJr/ZiPLJQvDdP1hvaEqgiwMpfGr/n0/AQVuXQTgIkIDeTP731kHJGOP0g88IopvSfVRAyDVBM/oLuZJCrdkHTi0Q2IYIvE2NmmpacE=
+  app: planetgsoc
   domain: rhnvrm
   on:
     repo: planetGSoC/planetGSoC.github.io
-
+    branch: river
 script: true
-
-# safelist
 branches:
   only:
   - master
