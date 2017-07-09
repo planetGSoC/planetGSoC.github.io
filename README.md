@@ -5,7 +5,7 @@ PlanetGSoC uses river5 as it's river-of-news RSS aggregator which is written in 
 
 ## How to add your blog to http://planetgsoc.github.io/
 
-You can add your Blog's feed to the [list/gsoc.txt](https://github.com/planetGSoC/river5/blob/master/lists/gsoc.txt). Please try to add blogs that are related to Google Summer of Code or you can read below to add tags/labels to your blog and get it's feed.
+You can add your Blog's feed to the [list/gsoc.txt](https://github.com/planetGSoC/planetGSoC.github.io/blob/river/lists/gsoc.txt). Please try to add blogs that are related to Google Summer of Code or you can read below to add tags/labels to your blog and get it's feed.
 
 ### Jekyll Powered Blogs
 
@@ -74,6 +74,6 @@ Feed for Wordpress blogs can be generated at `http://www.example.com/?tag=tagnam
 
 ## Workflow for deploying your own planet
 
-1. Deploy river5 on openshift
+1. Deploy river5 on openshift, update .travis.yml
 2. Update the URL in github.io repository
-3. To add new feeds to the river, add it to [list/gsoc.txt](https://github.com/planetGSoC/river5/blob/master/lists/gsoc.txt) and push the commit to openshift using git and let it redeploy.
+3. To add new feeds to the river, add it to `list/gsoc.txt` and push the commit to openshift using git and let it redeploy.
