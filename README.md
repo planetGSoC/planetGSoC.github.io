@@ -74,16 +74,16 @@ layout: null
 </rss>
 ```
 
-Finally, you can add the link (`http://rhnvrm.github.io/feed-gsoc.xml`) to [list/gsoc.txt](https://github.com/planetGSoC/river5/blob/master/lists/gsoc.txt) in a new line.
+Finally, you can add the link (`http://rhnvrm.github.io/feed-gsoc.xml`) to [river branch's lists/gsoc.txt](https://github.com/planetGSoC/planetGSoC.github.io/blob/river/lists/gsoc.txt) in a new line.
 
 ### Blogger/Blogspot powered blogs
 
-You can add a label named `GSoC` to your blog and the feed for that specific tag will reside in `blog.com/feeds/posts/default/-/GSoC/?alt=rss`. You can then add this to [list/gsoc.txt](https://github.com/planetGSoC/river5/blob/master/lists/gsoc.txt) in a new line.
+You can add a label named `GSoC` to your blog and the feed for that specific tag will reside in `blog.com/feeds/posts/default/-/GSoC/?alt=rss`. You can then add this to [river branch's lists/gsoc.txt](https://github.com/planetGSoC/planetGSoC.github.io/blob/river/lists/gsoc.txt) in a new line.
 
 
 ### Wordpress powered blogs
 
-Feed for Wordpress blogs can be generated at `http://www.example.com/?tag=tagname&feed=rss2` or `http://example.in/feed/?cat=gsoc-2016`. You can read up the documentation here: `https://codex.wordpress.org/WordPress_Feeds#Categories_and_Tags`. Add this in a new line to [list/gsoc.txt](https://github.com/planetGSoC/river5/blob/master/lists/gsoc.txt)
+Feed for Wordpress blogs can be generated at `http://www.example.com/?tag=tagname&feed=rss2` or `http://example.in/feed/?cat=gsoc-2016`. You can read up the documentation here: `https://codex.wordpress.org/WordPress_Feeds#Categories_and_Tags`. Add this in a new line to [river branch's lists/gsoc.txt](https://github.com/planetGSoC/planetGSoC.github.io/blob/river/lists/gsoc.txt)
 
 ---
 
