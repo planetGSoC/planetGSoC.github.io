@@ -4,7 +4,7 @@ deploy:
   password:
     secure: cVn+YLapa4NtQWfdL1hxfJiqKzk0Hl16A6Cjcg8keEqweNU0rv9PDsX00Mt8l1fMBs6e4wfoRKBEpmNPzD2ZVZeti0QWMlrJ3IkVxSxbU5tfAIlhNMVM8rcyUWWmiyOYIhX/0rZQznUZxVSRNDhbwNf/azmukSnArNPLJDoBioLFJmtqEHDebRYZZMMrPp8I5NJ/GzAKJ5HR2dNucJ0PrM9xSaMu/R+aLfezNSssbfJfyR6DG8ep//mFrJOa4gtH851drWJungfrBxrHFPtetd+nOEUP0JemBPx1LDecmxdK6OnbndW7r/f7CqDtmzavoC4QpyZpZ7X5Tzzy7J7U4UDpRBRXIv4nXEIsBLwzDKBQprxBQQrwVAjeKclB1UI6AavtJ3dIDlgOCElSbwI+mbZghsKAmUujrBfAtfDu7TGSVghOO3gR0Eu7xwjn+gQZlJ6ElR2Qqf+cx8v70i+vnv+lKZXLoGm190SjdMjGtQYAXDIKvELlBSCi20/OJNTpyOsjH1muKRVPzjKr9/p3V06p8Gar2Hjn44/MAAmjlhtYxfAya0Yz3M2Cmj+ImBaW+m5jeayc0yWn/TpODLweR2PPjbRAw7yGE+s1P0sm623GJwz4dD58ZcEtUpGoj6cfV2tnRejNdOpLS9VMJoYlhhaFgzQnuwDLoxb87uapcr4=
   app: planetgsoc
-  domain: planetgsoc-rhnvrm.rhcloud.com
+  domain: rhnvrm
   on:
     repo: planetGSoC/river5
 
