@@ -7,3 +7,5 @@ deploy:
   domain: planetgsoc-rhnvrm.rhcloud.com
   on:
     repo: planetGSoC/river5
+
+script: true
