@@ -1,13 +1,21 @@
-![https://avatars0.githubusercontent.com/u/19289545?v=3&s=200](https://avatars0.githubusercontent.com/u/19289545?v=3&s=200)
+<p align="center">
+  <img width="320" height="320" src="https://2.bp.blogspot.com/-K5NjtdmmQgY/V_KwiwXH-LI/AAAAAAAAA6U/R1eXaWE4R6sEF3rnomIOwTK_UzohhSkDgCPcB/s320/image00.jpg">
+</p>
 
-# planetGSoC.github.io
-Planet for GSoC. Google Summer of Code Blog Aggregator.
+# [planetGSoC.github.io](http://planetgsoc.github.io/)
+Planet for GSoC - A Google Summer of Code Blog Aggregator. 
 
-This repository hosts the frontend. Feel free to contribute by sending in pull requests.
+PlanetGSoC uses river5 as it's river-of-news RSS aggregator which is written in NodeJS and is deployed on OpenShift with the help of TravisCI. The code resides in the [river branch](https://github.com/planetGSoC/planetGSoC.github.io/tree/river).
 
-## How to add your blog to http://planetgsoc.github.io/
+[![DEPLOY ON OpenShift](http://launch-shifter.rhcloud.com/launch/DEPLOY%20ON.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=nodejs-0.10&initial_git_url=https://github.com/planetGSoC/river5.git&name=river5-planetGSoC)
 
-You can add your Blog's feed to the repository at [river5/list/gsoc.txt](https://github.com/planetGSoC/river5/blob/master/lists/gsoc.txt). Please try to add blogs that are related to Google Summer of Code or you can read below to add tags/labels to your blog and get it's feed.
+This branch contains the frontend. 
+
+Feel free to contribute by sending in pull requests or opening issues.
+
+## Adding your blog to http://planetgsoc.github.io/
+
+You can add your Blog's feed to the [river branch's lists/gsoc.txt](https://github.com/planetGSoC/planetGSoC.github.io/blob/river/lists/gsoc.txt) by sending a pull request. Please try to add blogs that are related to Google Summer of Code or you can read below to add tags/labels to your blog and get it's feed.
 
 You can also edit the file without cloning the directory to your machine. Just click the edit button.
 ![https://help.github.com/assets/images/help/repository/edit-file-edit-button.png](https://help.github.com/assets/images/help/repository/edit-file-edit-button.png)
@@ -68,12 +76,15 @@ layout: null
 
 Finally, you can add the link (`http://rhnvrm.github.io/feed-gsoc.xml`) to [list/gsoc.txt](https://github.com/planetGSoC/river5/blob/master/lists/gsoc.txt) in a new line.
 
-### Blogger/Blogspot powered
+### Blogger/Blogspot powered blogs
 
 You can add a label named `GSoC` to your blog and the feed for that specific tag will reside in `blog.com/feeds/posts/default/-/GSoC/?alt=rss`. You can then add this to [list/gsoc.txt](https://github.com/planetGSoC/river5/blob/master/lists/gsoc.txt) in a new line.
 
 
-### Wordpress powered
+### Wordpress powered blogs
 
 Feed for Wordpress blogs can be generated at `http://www.example.com/?tag=tagname&feed=rss2` or `http://example.in/feed/?cat=gsoc-2016`. You can read up the documentation here: `https://codex.wordpress.org/WordPress_Feeds#Categories_and_Tags`. Add this in a new line to [list/gsoc.txt](https://github.com/planetGSoC/river5/blob/master/lists/gsoc.txt)
 
+---
+
+planetGSoC is powered by the GSoC Community.
