@@ -9,3 +9,9 @@ deploy:
     repo: planetGSoC/river5
 
 script: true
+
+# safelist
+branches:
+  only:
+  - master
+  - river
