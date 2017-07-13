@@ -64,3 +64,4 @@ https://medium.com/@suthagar23
 https://hatimak.me/feed-gsoc.xml
 https://tigleym.github.io/feed-gsoc.xml
 https://pandeydiveshnotgeek.wordpress.com/category/google-summer-of-code-2017/feed/
+https://shalzz.github.io/feed-gsoc.xml
