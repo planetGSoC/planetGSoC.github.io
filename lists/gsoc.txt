@@ -67,3 +67,4 @@ https://pandeydiveshnotgeek.wordpress.com/category/google-summer-of-code-2017/fe
 https://shalzz.github.io/feed-gsoc.xml
 http://nihal111.github.io/feed_gsoc.xml
 https://slinkydeveloper.github.io/feed-gsoc.xml
+http://arpan98.github.io/feed.xml
