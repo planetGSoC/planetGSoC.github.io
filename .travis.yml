@@ -4,6 +4,9 @@ deploy:
   password:
     secure: HAXYp/gwm6jC/Hv+3jWra3PhRRhlZdpU5IHrZtsowXyNykHXMAy/80DJl/WvjiWkKtRkkQ/iKmyemS8/13T3nl0rCmc2bT4CqGftkZ31CXr5MS5UNgeU1a+ntlnth7IZSE/KeuK3q4qY8FPnu130C0Bdg0IjiI8JxjoY/hRoujVL9Fjz/9vThYbWHY88NG0Sxrh+87T49hZ+ZFewcARkpOKgOwf/TRKauDPrMgt0XpAWFWQT9Enkb/F8zAokTwAeaKT5u2FszMlUG2QTnthgmxwpbdP9JmnEQvm9EmcL3lAnDI3vLQLCvd7i00c6WNp0/YDEiugyLEKHO92FaJIPUOt8EJgGYJ/4uYFpe8W6hhMBzpk04fMCsGpZtEedOuV/D1SOcoF3+8h4n7R6ZclHfesnubo/WOGOoId2dcStLS0ZFcRIIyZhW/3QhU9IjBCk+RXbUTO52/ZwisfYuhZKo2RA5QCmfVGQrjvSJDBl+WwTZf7Wa1X2eUd9VeE5NqnvZM9aKHvumfs1seeOP/GkqmIk+HXj/qT6zWZilORsz0Nz9q/9/dt18R8VZNxlCuT6DJ3KYJr/ZiPLJQvDdP1hvaEqgiwMpfGr/n0/AQVuXQTgIkIDeTP731kHJGOP0g88IopvSfVRAyDVBM/oLuZJCrdkHTi0Q2IYIvE2NmmpacE=
   app: planetgsoc
+  edge:
+    source: rhnvrm/dpl
+    branch: master
   domain: rhnvrm
   on:
     repo: planetGSoC/planetGSoC.github.io
